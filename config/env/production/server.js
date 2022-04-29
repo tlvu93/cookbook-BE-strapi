@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   proxy: true,
-  url: env("https://wbs-cookbook-backend.herokuapp.com/"),
+  url: env("DATABASE_URL"),
   app: {
     keys: env.array("APP_KEYS"),
   },
