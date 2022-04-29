@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_amount_recipe_ingredient_entries",
+  "info": {
+    "displayName": "recipe_ingredient",
+    "icon": "list-ol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "ingredient": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ingredient.ingredient"
+    },
+    "measurement_unit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::measurement-unit.measurement-unit"
+    }
+  }
+}

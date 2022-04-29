@@ -12,17 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "quantity": {
+    "ingredient_name": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
+    "carbohydrates": {
+      "type": "decimal"
     },
-    "recipe": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::recipe.recipe",
-      "inversedBy": "ingredients"
+    "protein": {
+      "type": "decimal"
+    },
+    "fat": {
+      "type": "decimal"
+    },
+    "kcal": {
+      "type": "integer"
     }
   }
 }

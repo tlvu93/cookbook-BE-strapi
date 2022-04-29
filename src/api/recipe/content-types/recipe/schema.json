@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "recipe_name": {
       "type": "string",
       "required": true
     },
@@ -30,20 +30,13 @@
         "audios"
       ]
     },
-    "creation_date": {
-      "type": "date"
-    },
     "rating": {
       "type": "decimal"
     },
-    "quantity": {
-      "type": "string"
-    },
-    "ingredients": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::ingredient.ingredient",
-      "mappedBy": "recipe"
+    "recipe_ingredients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe.recipe-ingredient-entry"
     }
   }
 }
