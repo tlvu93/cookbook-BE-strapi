@@ -15,10 +15,10 @@
       "relation": "oneToOne",
       "target": "api::ingredient.ingredient"
     },
-    "measurement_unit": {
+    "unit": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::measurement-unit.measurement-unit"
+      "target": "api::unit.unit"
     }
   }
 }
