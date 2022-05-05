@@ -38,8 +38,10 @@
       "repeatable": true,
       "component": "recipe.recipe-ingredient-entry"
     },
-    "Preparation": {
-      "type": "richtext"
+    "Step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe.preparation"
     }
   }
 }

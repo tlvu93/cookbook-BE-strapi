@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_recipe_preparations",
+  "info": {
+    "displayName": "Preparation",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "Step_description": {
+      "type": "richtext"
+    }
+  }
+}
